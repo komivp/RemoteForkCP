@@ -1,0 +1,30 @@
+{
+  "IpAddress": "192.168.1.53",
+  "Port": 8027,
+  "ListenLocalhost": true,
+  "UseProxy": false,
+  "ProxyNotDefaultEnable": false,
+  "ProxyAddress": null,
+  "ProxyPort": 0,
+  "ProxyUserName": null,
+  "ProxyPassword": null,
+  "ProxyType": 0,
+  "UserAgent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
+  "Dlna": true,
+  "DlnaFilterType": 0,
+  "DlnaDirectories": [],
+  "DlnaFileExtensions": [],
+  "Plugins": true,
+  "PluginIcons": true,
+  "EnablePlugins": [
+    "EA1BF5C80908A4EE7BC14EEA72FEB51055F2DE0805B73C1CDCD31045E3C608DC",
+    "620A1A7CC343909A1F9243648ABB3B171DD8C911BAADC992FDF8A95E342DDEBC"
+  ],
+  "UserUrls": [],
+  "AceStreamPort": 6878,
+  "LogLevel": 5,
+  "CheckUpdate": true,
+  "DeveloperMode": false,
+  "StartPageModernStyle": true,
+  "UID": "47b0b7aa-7ed9-414b-b380-788378b67e4f"
+}

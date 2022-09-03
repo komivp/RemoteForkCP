@@ -1,0 +1,35 @@
+{
+  "Separator": ";",
+  "SettingsVersion": 1.0,
+  "PluginPath": "pluginPath",
+  "Icons": {
+    "IcoSearch": "http://s1.iconbird.com/ico/0612/MustHave/w256h2561339195991Search256x256.png",
+    "IcoFolder": "http://s1.iconbird.com/ico/1012/AmpolaIcons/w256h2561350597246folder.png",
+    "IcoTorrentFile": "http://s1.iconbird.com/ico/1012/AmpolaIcons/w256h2561350597291utorrent2.png",
+    "IcoNofile": "https://avatanplus.com/files/resources/mid/5788db3ecaa49155ee986d6e.png",
+    "IcoError": "http://s1.iconbird.com/ico/0912/ToolbarIcons/w256h2561346685474SymbolError.png",
+    "IcoAduio": "http://s1.iconbird.com/ico/1012/AmpolaIcons/w256h2561350597283musicfile.png",
+    "IcoVideo": "http://s1.iconbird.com/ico/1012/AmpolaIcons/w256h2561350597291videofile.png",
+    "IcoImage": "http://s1.iconbird.com/ico/1012/AmpolaIcons/w256h2561350597278jpgfile.png",
+    "IcoOther": "http://s1.iconbird.com/ico/2013/6/364/w256h2561372348486helpfile256.png"
+  },
+  "AceStreamApi": {
+    "GetStreamById": "http://{0}:{1}/ace/getstream?id={2}",
+    "GetStreamManifest": "http://{0}:{1}/ace/manifest.m3u8?&infohash={2}",
+    "Search": "https://search.acestream.net/?method=search&api_version=1.0&api_key=test_api_key&query={0}&page_size=50&page={1}"
+  },
+  "Links": {
+    "TrashTTV": "http://91.92.66.82/trash/ttv-list/",
+    "TvP2P": "http://tv-p2p.ru",
+    "AllfonTv": "http://allfon-tv.com"
+  },
+  "Regexp": {
+    "InfoHash": "(?<=\"infohash\":\").*?(?=\")",
+    "Name": "(?<=\"name\":\").*?(?=\")",
+    "LoadPlayer": "(loadPlayer\\(')([\\d\\w]*?)(')",
+    "Title": "(?<=<title>).*?(?=&raquo;)",
+    "CategoryBody": "(<div class=\"modal-body category-body\">)([\\s\\S]+?)(<\\/div>)",
+    "Link": "(<a href=)(.*?)(\\/a>)",
+    "LinkName": "(\")(.*?)(\">)(.*?)(<)"
+  }
+}
